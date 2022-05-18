@@ -1,6 +1,6 @@
 {
   "name": "@uppercod/match-media",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows to define a value in post of an evaluation of a string whose pattern is like img[srcset]",
   "publishConfig": {
     "access": "public"
@@ -8,7 +8,8 @@
   "main": "dist/module.js",
   "scripts": {
     "test": "uvu -r tsm tests",
-    "exports": "exports ./src/module.ts --exports --types"
+    "exports": "exports ./src/module.ts --exports --types",
+    "prepublishOnly": "npm run test && npm run exports"
   },
   "repository": {
     "type": "git",
