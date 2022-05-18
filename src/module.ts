@@ -6,7 +6,7 @@ const CACHE: {
 
 const getIndexParam = (value: string) => value.match(ID_REG)?.[1];
 
-interface Result {
+export interface Result {
   value: string;
   size: number;
   unit: string;
