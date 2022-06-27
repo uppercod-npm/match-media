@@ -1,6 +1,7 @@
 {
   "name": "@uppercod/match-media",
-  "version": "1.1.0",
+  "version": "1.1.1",
+  "type": "module",
   "description": "Allows to define a value in post of an evaluation of a string whose pattern is like img[srcset]",
   "publishConfig": {
     "access": "public"
